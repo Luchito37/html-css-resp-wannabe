@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .site-header{
+        display: flex;
+        margin-top: 3rem;
+        justify-content: center;
+        max-width: 100%
+    }
+    .lessons .col img, .steps .col img{
+        height: 300px;
+    }
+    .lessons .card, .steps .card, .why-us .card {
+        padding: 0 10px;
+    }
+    .why-us .col-right {
+        padding: 0 10px;
+    }
+}

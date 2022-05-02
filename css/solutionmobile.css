@@ -1,0 +1,16 @@
+@media  screen and (max-width:480px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .why-us{
+        background-color: #1c1c1c;
+        padding-top: 50px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+}
